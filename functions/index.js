@@ -1,6 +1,6 @@
 const { https } = require('firebase-functions');
 
-exports.index = https.onRequest((req, res) => {
+exports.test = https.onRequest((req, res) => {
   const html = `<!doctype html>
   <head>
     <title>Time</title>
